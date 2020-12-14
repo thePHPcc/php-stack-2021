@@ -1,0 +1,17 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+body {
+    padding:0;
+    margin:0;
+    background-color: #fff;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
