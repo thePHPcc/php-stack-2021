@@ -9,9 +9,16 @@ body {
     margin:0;
     background-color: #fff;
     display:grid;
-    align-items: center;
     justify-items: center;
     
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
+}
+
+img {
+    align-self: end;
+}
+
+span {
+    align-self: start;
 }
